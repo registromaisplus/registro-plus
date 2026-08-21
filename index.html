@@ -2,14 +2,318 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=./privacidade.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Registro+</title>
-    <link rel="canonical" href="./privacidade.html" />
+    <title>Registro Plus — registro com prova no momento do fato</title>
+    <meta
+      name="description"
+      content="Registro Plus: registre fatos com prova — anexos, prazos e backup .rplus no celular. Sem nuvem obrigatória."
+    />
+    <link rel="canonical" href="https://deneralbuquerque37-boop.github.io/registro-plus/" />
+    <meta property="og:title" content="Registro Plus — registro com prova no momento do fato" />
+    <meta
+      property="og:description"
+      content="Quando o fato acontece, registre com prova. Anexos, prazos e backup no celular."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://deneralbuquerque37-boop.github.io/registro-plus/" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <style>
+      :root {
+        color-scheme: light;
+        --azul: #1d4ed8;
+        --azul-escuro: #1e3a8a;
+        --texto: #0f172a;
+        --muted: #475569;
+        --fundo: #f1f5f9;
+        --card: #ffffff;
+        --borda: #e2e8f0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        color: var(--texto);
+        background: var(--fundo);
+      }
+      a {
+        color: var(--azul);
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 20px 48px;
+      }
+      header.hero {
+        background: linear-gradient(160deg, #1e3a8a 0%, #1d4ed8 55%, #2563eb 100%);
+        color: #fff;
+        padding: 40px 20px 48px;
+        margin-bottom: 28px;
+      }
+      .hero-inner {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      .brand {
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        opacity: 0.95;
+        margin: 0 0 16px;
+      }
+      .hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2rem);
+        line-height: 1.25;
+        margin: 0 0 12px;
+        font-weight: 800;
+      }
+      .hero .lead {
+        margin: 0 0 24px;
+        font-size: 1.05rem;
+        opacity: 0.92;
+        max-width: 34em;
+      }
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+      .btn-primary {
+        background: #fff;
+        color: var(--azul-escuro);
+      }
+      .btn-primary:hover {
+        background: #eff6ff;
+      }
+      .btn-ghost {
+        background: transparent;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+      }
+      .btn-ghost:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      section {
+        margin-top: 28px;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin: 0 0 10px;
+        color: var(--texto);
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--borda);
+        border-radius: 16px;
+        padding: 20px;
+      }
+      ul.features {
+        margin: 0;
+        padding-left: 1.2em;
+      }
+      ul.features li {
+        margin: 6px 0;
+      }
+      .shot {
+        margin-top: 14px;
+        border-radius: 12px;
+        border: 1px solid var(--borda);
+        overflow: hidden;
+        background: #fff;
+      }
+      .shot img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .caption {
+        font-size: 0.85rem;
+        color: var(--muted);
+        padding: 10px 12px 12px;
+        margin: 0;
+      }
+      .cta-final {
+        text-align: center;
+        padding: 28px 20px;
+      }
+      .cta-final .btn-primary {
+        background: var(--azul);
+        color: #fff;
+      }
+      .cta-final .btn-primary:hover {
+        background: var(--azul-escuro);
+      }
+      .alias {
+        font-size: 0.9rem;
+        margin-top: 12px;
+      }
+      footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--borda);
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+      footer nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        margin-bottom: 12px;
+      }
+      footer a {
+        text-decoration: none;
+        font-weight: 600;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Registro Plus",
+        "alternateName": ["Registro+", "Registro Mais", "registromais"],
+        "operatingSystem": "Android",
+        "applicationCategory": "ProductivityApplication",
+        "description": "Registre fatos com prova: anexos, prazos e backup local (.rplus) no celular, sem nuvem obrigatória.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        },
+        "url": "https://deneralbuquerque37-boop.github.io/registro-plus/",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=br.com.registromais.app",
+        "installUrl": "https://play.google.com/store/apps/details?id=br.com.registromais.app",
+        "author": {
+          "@type": "Person",
+          "name": "Registro Plus"
+        }
+      }
+    </script>
   </head>
   <body>
-    <p>
-      <a href="./privacidade.html">Política de Privacidade do Registro+</a>
-    </p>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="brand">Registro Plus</p>
+        <h1>Quando o fato acontece, registre com prova.</h1>
+        <p class="lead">Anexo, prazo e backup no celular — sem nuvem obrigatória.</p>
+        <div class="cta-row">
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=br.com.registromais.app"
+            rel="noopener"
+            >Instalar na Google Play</a
+          >
+          <a class="btn btn-ghost" href="./privacidade.html">Política de privacidade</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <section class="card" aria-labelledby="job">
+        <h2 id="job">Feito para o momento do fato</h2>
+        <p>
+          O <strong>Registro Plus</strong> concentra o que importa num só registro: o que ocorreu, a prova (foto,
+          áudio, vídeo ou documento), o prazo de acompanhamento e o backup no seu aparelho.
+        </p>
+        <p>
+          Não é bloco de notas do dia a dia. É registro com evidência, para consultar depois com clareza.
+        </p>
+      </section>
+
+      <section aria-labelledby="faz">
+        <h2 id="faz">O que você faz no app</h2>
+        <div class="card">
+          <ul class="features">
+            <li>Cria um registro com texto, classificação e prazo</li>
+            <li>Anexa fotos, vídeos, áudios e documentos como prova</li>
+            <li>Acompanha o mesmo caso no tempo</li>
+            <li>Compartilha resumos ou relatório quando precisar</li>
+            <li>Faz backup e restauração no aparelho (arquivo <code>.rplus</code>)</li>
+            <li>Protege com PIN; lixeira para recuperação</li>
+            <li>Trial e planos pela Google Play</li>
+          </ul>
+        </div>
+      </section>
+
+      <section aria-labelledby="backup">
+        <h2 id="backup">Seus dados no seu ritmo</h2>
+        <div class="card">
+          <p>
+            O backup local (<code>.rplus</code>) guarda registros e anexos para restaurar no celular. O uso principal
+            não depende de conta na nuvem.
+          </p>
+          <p>
+            Saiba mais na
+            <a href="./privacidade.html">política de privacidade</a>.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="prova">
+        <h2 id="prova">Exemplo de saída</h2>
+        <div class="shot">
+          <img
+            src="./img/relatorio-premium-exemplo.png"
+            alt="Exemplo de relatório consolidado no Registro Plus, com resumo de registros, anexos e prazos (dados pessoais omitidos)."
+            width="720"
+            height="1600"
+            loading="lazy"
+          />
+          <p class="caption">
+            Exemplo de uso: caso com provas anexadas e acompanhamento. Dados pessoais omitidos nesta imagem.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="quem">
+        <h2 id="quem">Para quem é</h2>
+        <div class="card">
+          <p>
+            Para qualquer pessoa que precise registrar um acontecimento com prova — no trabalho, em casa ou num
+            processo — e manter tudo no aparelho.
+          </p>
+        </div>
+      </section>
+
+      <section class="card cta-final" aria-labelledby="cta">
+        <h2 id="cta">Registre com prova quando o fato acontecer</h2>
+        <p>
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=br.com.registromais.app"
+            rel="noopener"
+            >Baixar na Google Play</a
+          >
+        </p>
+        <p class="alias">Também encontrável como Registro Mais / registromais.</p>
+      </section>
+
+      <footer>
+        <nav aria-label="Rodapé">
+          <a href="https://play.google.com/store/apps/details?id=br.com.registromais.app" rel="noopener"
+            >Google Play</a
+          >
+          <a href="./privacidade.html">Política de privacidade</a>
+          <a href="mailto:decorandobrincando@gmail.com">Contacto</a>
+        </nav>
+        <p>© Registro Plus · Pacote <code>br.com.registromais.app</code></p>
+      </footer>
+    </div>
   </body>
 </html>
