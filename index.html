@@ -9,6 +9,10 @@
       content="Registro Plus: registre fatos com prova — anexos, prazos e backup .rplus no celular. Sem nuvem obrigatória."
     />
     <link rel="canonical" href="https://registromaisplus.github.io/registro-plus/" />
+    <link rel="alternate" hreflang="pt-BR" href="https://registromaisplus.github.io/registro-plus/" />
+    <link rel="alternate" hreflang="en" href="https://registromaisplus.github.io/registro-plus/index-en.html" />
+    <link rel="alternate" hreflang="es" href="https://registromaisplus.github.io/registro-plus/index-es.html" />
+    <link rel="alternate" hreflang="x-default" href="https://registromaisplus.github.io/registro-plus/" />
     <meta property="og:title" content="Registro Plus — registro com prova no momento do fato" />
     <meta
       property="og:description"
@@ -55,6 +59,23 @@
       .hero-inner {
         max-width: 720px;
         margin: 0 auto;
+      }
+      .lang-nav {
+        font-size: 0.9rem;
+        color: #e8eefc;
+        margin: 0 0 16px;
+      }
+      .lang-nav a {
+        color: #e8eefc;
+        text-decoration: none;
+      }
+      .lang-nav a:hover {
+        text-decoration: underline;
+      }
+      .lang-nav [aria-current='page'] {
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: underline;
       }
       .brand {
         font-size: 0.95rem;
@@ -210,6 +231,11 @@
   <body>
     <header class="hero">
       <div class="hero-inner">
+        <nav class="lang-nav" aria-label="Idioma">
+          <a href="./index.html" hreflang="pt-BR" aria-current="page">Português</a> |
+          <a href="./index-en.html" hreflang="en">English</a> |
+          <a href="./index-es.html" hreflang="es">Español</a>
+        </nav>
         <p class="brand">Registro Plus</p>
         <h1>Quando o fato acontece, registre com prova.</h1>
         <p class="lead">Anexo, prazo e backup no celular — sem nuvem obrigatória.</p>

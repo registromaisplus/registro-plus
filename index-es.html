@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registro Plus — registro con prueba en el momento del hecho</title>
+    <meta
+      name="description"
+      content="Registro Plus: registra hechos con prueba — archivos adjuntos, plazos y respaldo .rplus en tu teléfono. Sin nube obligatoria."
+    />
+    <link rel="canonical" href="https://registromaisplus.github.io/registro-plus/index-es.html" />
+    <link rel="alternate" hreflang="pt-BR" href="https://registromaisplus.github.io/registro-plus/" />
+    <link rel="alternate" hreflang="en" href="https://registromaisplus.github.io/registro-plus/index-en.html" />
+    <link rel="alternate" hreflang="es" href="https://registromaisplus.github.io/registro-plus/index-es.html" />
+    <link rel="alternate" hreflang="x-default" href="https://registromaisplus.github.io/registro-plus/" />
+    <meta property="og:title" content="Registro Plus — registro con prueba en el momento del hecho" />
+    <meta
+      property="og:description"
+      content="Cuando ocurre el hecho, regístralo con prueba. Archivos adjuntos, plazos y respaldo en tu teléfono."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://registromaisplus.github.io/registro-plus/index-es.html" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <style>
+      :root {
+        color-scheme: light;
+        --azul: #1d4ed8;
+        --azul-escuro: #1e3a8a;
+        --texto: #0f172a;
+        --muted: #475569;
+        --fundo: #f1f5f9;
+        --card: #ffffff;
+        --borda: #e2e8f0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        color: var(--texto);
+        background: var(--fundo);
+      }
+      a {
+        color: var(--azul);
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 20px 48px;
+      }
+      header.hero {
+        background: linear-gradient(160deg, #1e3a8a 0%, #1d4ed8 55%, #2563eb 100%);
+        color: #fff;
+        padding: 40px 20px 48px;
+        margin-bottom: 28px;
+      }
+      .hero-inner {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      .lang-nav {
+        font-size: 0.9rem;
+        color: #e8eefc;
+        margin: 0 0 16px;
+      }
+      .lang-nav a {
+        color: #e8eefc;
+        text-decoration: none;
+      }
+      .lang-nav a:hover {
+        text-decoration: underline;
+      }
+      .lang-nav [aria-current='page'] {
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      .brand {
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        margin: 0 0 16px;
+        color: #ffffff;
+      }
+      .hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2rem);
+        line-height: 1.25;
+        margin: 0 0 12px;
+        font-weight: 800;
+        color: #ffffff;
+      }
+      .hero .lead {
+        margin: 0 0 24px;
+        font-size: 1.05rem;
+        max-width: 34em;
+        color: #e8eefc;
+      }
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+      .btn-primary {
+        background: #fff;
+        color: var(--azul-escuro);
+      }
+      .btn-primary:hover {
+        background: #eff6ff;
+      }
+      .btn-ghost {
+        background: transparent;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+      }
+      .btn-ghost:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      section {
+        margin-top: 28px;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin: 0 0 10px;
+        color: var(--texto);
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--borda);
+        border-radius: 16px;
+        padding: 20px;
+      }
+      ul.features {
+        margin: 0;
+        padding-left: 1.2em;
+      }
+      ul.features li {
+        margin: 6px 0;
+      }
+      .shot {
+        margin-top: 14px;
+        border-radius: 12px;
+        border: 1px solid var(--borda);
+        overflow: hidden;
+        background: #fff;
+      }
+      .shot img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .caption {
+        font-size: 0.85rem;
+        color: var(--muted);
+        padding: 10px 12px 12px;
+        margin: 0;
+      }
+      .cta-final {
+        text-align: center;
+        padding: 28px 20px;
+      }
+      .cta-final .btn-primary {
+        background: var(--azul);
+        color: #fff;
+      }
+      .cta-final .btn-primary:hover {
+        background: var(--azul-escuro);
+      }
+      .alias {
+        font-size: 0.9rem;
+        margin-top: 12px;
+      }
+      footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--borda);
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+      footer nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        margin-bottom: 12px;
+      }
+      footer a {
+        text-decoration: none;
+        font-weight: 600;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Registro Plus",
+        "alternateName": ["Registro+", "Registro Mais", "registromais"],
+        "operatingSystem": "Android",
+        "applicationCategory": "ProductivityApplication",
+        "description": "Registra hechos con prueba: archivos adjuntos, plazos y respaldo local (.rplus) en tu teléfono, sin nube obligatoria.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        },
+        "url": "https://registromaisplus.github.io/registro-plus/index-es.html",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=br.com.registromais.app",
+        "installUrl": "https://play.google.com/store/apps/details?id=br.com.registromais.app",
+        "author": {
+          "@type": "Person",
+          "name": "Registro Plus"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <nav class="lang-nav" aria-label="Idioma">
+          <a href="./index.html" hreflang="pt-BR">Português</a> |
+          <a href="./index-en.html" hreflang="en">English</a> |
+          <a href="./index-es.html" hreflang="es" aria-current="page">Español</a>
+        </nav>
+        <p class="brand">Registro Plus</p>
+        <h1>Cuando ocurre el hecho, regístralo con prueba.</h1>
+        <p class="lead">Archivo adjunto, plazo y respaldo en tu teléfono — sin nube obligatoria.</p>
+        <div class="cta-row">
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=br.com.registromais.app"
+            rel="noopener"
+            >Instalar en Google Play</a
+          >
+          <a class="btn btn-ghost" href="./privacidade-es.html">Política de Privacidad</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <section class="card" aria-labelledby="job">
+        <h2 id="job">Hecho para el momento del hecho</h2>
+        <p>
+          <strong>Registro Plus</strong> concentra lo importante en un solo registro: lo que ocurrió, la prueba
+          (foto, audio, video o documento), el plazo de seguimiento y el respaldo en tu dispositivo.
+        </p>
+        <p>
+          No es un bloc de notas del día a día. Es un registro con evidencia, para consultarlo después con
+          claridad.
+        </p>
+      </section>
+
+      <section aria-labelledby="faz">
+        <h2 id="faz">Qué haces en la aplicación</h2>
+        <div class="card">
+          <ul class="features">
+            <li>Creas un registro con texto, clasificación y plazo</li>
+            <li>Adjuntas fotos, videos, audios y documentos como prueba</li>
+            <li>Sigues el mismo caso en el tiempo</li>
+            <li>Compartes resúmenes o un informe cuando lo necesitas</li>
+            <li>Haces respaldo y restauración en el dispositivo (archivo <code>.rplus</code>)</li>
+            <li>Lo proteges con PIN; papelera para recuperación</li>
+            <li>Período de prueba y planes a través de Google Play</li>
+          </ul>
+        </div>
+      </section>
+
+      <section aria-labelledby="backup">
+        <h2 id="backup">Tus datos, a tu ritmo</h2>
+        <div class="card">
+          <p>
+            El respaldo local (<code>.rplus</code>) guarda registros y archivos adjuntos para restaurarlos en tu
+            teléfono. El uso principal no depende de una cuenta en la nube.
+          </p>
+          <p>
+            Más información en la
+            <a href="./privacidade-es.html">política de privacidad</a>.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="prova">
+        <h2 id="prova">Ejemplo de salida</h2>
+        <div class="shot">
+          <img
+            src="./img/relatorio-premium-exemplo.png"
+            alt="Ejemplo de informe consolidado en Registro Plus, con resumen de registros, archivos adjuntos y plazos (datos personales omitidos)."
+            width="672"
+            height="920"
+            loading="lazy"
+          />
+          <p class="caption">
+            Ejemplo de uso: caso con pruebas adjuntas y seguimiento. Datos personales omitidos en esta imagen.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="quem">
+        <h2 id="quem">Para quién es</h2>
+        <div class="card">
+          <p>
+            Para cualquier persona que necesite registrar un acontecimiento con prueba — en el trabajo, en casa o
+            en un proceso — y mantener todo en el dispositivo.
+          </p>
+        </div>
+      </section>
+
+      <section class="card cta-final" aria-labelledby="cta">
+        <h2 id="cta">Registra con prueba cuando ocurra el hecho</h2>
+        <p>
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=br.com.registromais.app"
+            rel="noopener"
+            >Descargar en Google Play</a
+          >
+        </p>
+        <p class="alias">También se puede encontrar como Registro Mais / registromais.</p>
+      </section>
+
+      <footer>
+        <nav aria-label="Pie de página">
+          <a href="https://play.google.com/store/apps/details?id=br.com.registromais.app" rel="noopener"
+            >Google Play</a
+          >
+          <a href="./privacidade-es.html">Política de Privacidad</a>
+          <a href="mailto:registromaisplus@gmail.com">Contacto</a>
+        </nav>
+        <p>© Registro Plus · Paquete <code>br.com.registromais.app</code></p>
+      </footer>
+    </div>
+  </body>
+</html>
